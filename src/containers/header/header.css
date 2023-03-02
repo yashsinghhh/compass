@@ -2,6 +2,7 @@
 display: flex;
 flex-direction: row;
 justify-content: center;
+padding-left: 18px;
 }
 .header_content{
     flex: 1;
@@ -111,6 +112,7 @@ border-bottom-left-radius: 2px; */
 @media screen and (max-width: 1050px) {
     .header_main {
         flex-direction: column;
+
     }
 
     .header_content {
