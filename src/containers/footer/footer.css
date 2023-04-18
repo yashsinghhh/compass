@@ -34,7 +34,7 @@
     cursor: pointer;
 }
 
-.gpt3__footer-btn p {
+.gpt3__footer-btn a {
     font-size: 18px;
     font-family: var(--font-family);
     line-height: 21px;

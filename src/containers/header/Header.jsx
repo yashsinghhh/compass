@@ -19,7 +19,7 @@ THAT FITS YOU BEST</h1>
         </div>
         <div className='header_people'>
           <img src={people} alt='people'/>
-          <p>1600 people requested access to the site</p>
+          <p>1600 people requested mentorship</p>
         </div>
         {/* <div className='header_ai'>
           <img src={ai} alt='ai'/>

@@ -9,7 +9,7 @@ const Footer = () => (
     </div>
 
     <div className="gpt3__footer-btn">
-      <p>Request Mentorship</p>
+      <a href='https://forms.gle/9JkacCQjchE4Romx6'>Request Mentorship</a>
     </div>
 
     <div className="gpt3__footer-links">
