@@ -98,15 +98,7 @@ font-family: var(--font-family);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 2px;
  }
- .colleges2{
-    display: flex;
-    
 
-  }
-
-  .colleges2 .card{
-    margin: 30px;
-  }
 
   
 

@@ -72,7 +72,8 @@ const Navbar = () => {
         </div>
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>
-          <p><a href="wgpt3">Engineering</a></p>
+          {/* <p><a href="wgpt3">Engineering</a></p> */}
+          <p><Link to="/wgpt3">Engineering</Link></p>
           <p><a href="#possibility">Medical</a></p>
           <p><a href="#features">NIRF 2021</a></p>
           <p><a href="#blog">Contact Us</a></p>
@@ -80,8 +81,8 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        <p>Sign in</p>
-        <button type="button">Sign up</button>
+       <Link to='/signup'><p>Sign in</p></Link> 
+        <Link to='/signin'><button type="button">Sign up</button></Link>
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu

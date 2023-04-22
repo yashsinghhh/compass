@@ -1,13 +1,18 @@
 import React from 'react'
-import './possibility.css';
+import './features4.css';
 import bennett from '../../assets/bennett.jpg'
 import iitd from '../../assets/iitd.jpg'
 import iitb from '../../assets/iitb.jpg'
+// import aiims from '../../assets/aiims.jpg'
+// import bennett from '../../assets/bennett.jpg'
+// import bennett from '../../assets/bennett.jpg'
+// import bennett from '../../assets/bennett.jpg'
+// import bennett from '../../assets/bennett.jpg'
+// import bennett from '../../assets/bennett.jpg'
+import { GrLocationPin } from 'react-icons/ri';
 
-
-const Possibility = () => {
+const Features4 = () => {
   return (
-    <div className='parent_colleges'>
     <div className='colleges'>
     <div class="card">
   <div class="img-card">
@@ -71,9 +76,7 @@ const Possibility = () => {
 
 </div>
 
-
-</div>
   )
 }
 
-export default Possibility
+export default Features4
