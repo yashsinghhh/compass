@@ -74,7 +74,7 @@ const Navbar = () => {
           <p><a href="#home">Home</a></p>
           {/* <p><a href="wgpt3">Engineering</a></p> */}
           <p><Link to="/wgpt3">Engineering</Link></p>
-          <p><a href="#possibility">Medical</a></p>
+          {/* <p><a href="#possibility">Medical</a></p> */}
           <p><a href="#features">NIRF 2021</a></p>
           <p><a href="#blog">Contact Us</a></p>
 

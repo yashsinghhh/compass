@@ -3,7 +3,7 @@ import './nirf.css'
 
 const Nirf = () => {
   return (
-    <><h2>Responsive Table</h2><div class="table-wrapper">
+    <><h2 id='features'>Responsive Table</h2><div class="table-wrapper">
 <table class="fl-table"> <thead>
         <tr>
             <th>Header 1</th>

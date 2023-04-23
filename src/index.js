@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from './App';
-import college from './pages/college_page/college'
+import college from './pages/college_page/College'
 import Sign_in_page from "./pages/sign_in_page/Sign_in_page";
 import Sign_up_page from "./pages/sign_up_page/Sign_up_page";
+import College from "./pages/college_page/College";
 import {
     createBrowserRouter,
     RouterProvider,
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "signup",
         element: <Sign_up_page />,
+      },
+      {
+        path: "college",
+        element: <College />,
       },
   ]);
 
