@@ -76,7 +76,7 @@ const Navbar = () => {
           <p><Link to="/wgpt3">Engineering</Link></p>
           {/* <p><a href="#possibility">Medical</a></p> */}
           <p><a href="#features">NIRF 2021</a></p>
-          <p><a href="#blog">Contact Us</a></p>
+          <p><a href="./college.html">Contact Us</a></p>
 
         </div>
       </div>
