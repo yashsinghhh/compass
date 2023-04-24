@@ -10,6 +10,7 @@ import iitb from '../../assets/iitb.jpg'
 // import bennett from '../../assets/bennett.jpg'
 // import bennett from '../../assets/bennett.jpg'
 import { GrLocationPin } from 'react-icons/ri';
+import { Link } from 'react-router-dom';
 
 const Features = () => {
   return (
@@ -19,9 +20,9 @@ const Features = () => {
   <img src={bennett} />
   </div>
   <div class="info-card">
-    <p className='c_name'><strong>Bennett University</strong></p>
+   <a href='https://www.bennett.edu.in/'> <p className='c_name'><strong>Bennett University</strong></p></a>
     <div className='info'>
-    <p>Fees: 15$</p>
+    <p>Fees:21,55,000</p>
     </div>
   </div>
   
@@ -32,9 +33,9 @@ const Features = () => {
   <img src={iitd} />
   </div>
   <div class="info-card">
-    <p className='c_name'><strong>Bennett University</strong></p>
+  <a href='https://www.bennett.edu.in/'><p className='c_name'><strong>IIT Delhi</strong></p></a>
     <div className='info'>
-    <p>Fees: 15$</p>
+    <p>Fees: 16,21,000</p>
     </div>
   </div>
   
@@ -46,9 +47,9 @@ const Features = () => {
   <img src={iitb} />
   </div>
   <div class="info-card">
-    <p className='c_name'><strong>Bennett University</strong></p>
+  <a href='https://www.bennett.edu.in/'> <p className='c_name'><strong>IIT Bombay</strong></p></a>
     <div className='info'>
-    <p>Fees: 15$</p>
+    <p>Fees: 11,05,000</p>
     </div>
   </div>
   

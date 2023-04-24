@@ -19,9 +19,9 @@ const Page_2 = () => {
   <img src={bennett} />
   </div>
   <div class="info-card">
-    <p className='c_name'><strong>Bennett University</strong></p>
+  <a href='https://www.bennett.edu.in/'><p className='c_name'><strong>VIT Vellore</strong></p></a>
     <div className='info'>
-    <p>Fees: 15$</p>
+    <p>Fees: 18,00,000</p>
     </div>
   </div>
   
@@ -32,9 +32,9 @@ const Page_2 = () => {
   <img src={iitd} />
   </div>
   <div class="info-card">
-    <p className='c_name'><strong>Bennett University</strong></p>
+  <a href='https://www.bennett.edu.in/'>  <p className='c_name'><strong>Manipal University</strong></p></a>
     <div className='info'>
-    <p>Fees: 15$</p>
+    <p>Fees: 24,23,000</p>
     </div>
   </div>
   
@@ -46,9 +46,9 @@ const Page_2 = () => {
   <img src={iitb} />
   </div>
   <div class="info-card">
-    <p className='c_name'><strong>Bennett University</strong></p>
+  <a href='https://www.bennett.edu.in/'> <p className='c_name'><strong>SRM Chennai</strong></p></a>
     <div className='info'>
-    <p>Fees: 15$</p>
+    <p>Fees: 18,00,000</p>
     </div>
   </div>
   

@@ -1,7 +1,7 @@
 import React from 'react'
 import './sign_in_page.css' 
 // import { Navbar } from '../../components/navbar/Navbar'
-
+import { Link } from 'react-router-dom'
 function Sign_in_page() {
   return (
     <div className="main_form">    
@@ -33,7 +33,7 @@ function Sign_in_page() {
         <input required="" placeholder="" type="password" class="input"/>
         <span>Confirm password</span>
     </label>
-    <button class="submit">Submit</button>
+   <Link to="/"><button class="submit">Submit</button></Link>
     <p class="signin">Already have an acount ? <a href="#">Signin</a> </p>
 </form></div>
   
